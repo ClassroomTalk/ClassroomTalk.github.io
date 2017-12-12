@@ -1,0 +1,58 @@
+### Site info:
+title: Classroom Talk
+tagline: Better teaching for a better tomorrow
+author: Maggie Cary
+description: "TODO write description" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
+keywords: "advice, classroom, talk, education, ClassroomTalk"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+locale: en_US
+
+### Personal info and site tools info:
+twitter_username: MaggieCary
+favicon:     "/img/favicon.ico"
+aboutme_photo: # your photo.
+google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
+
+
+### Site setting:
+permalink: /:year/:month/:day/:title.html
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "en" # blog sidebar language set, only include: English (en)
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Recent_Posts: "Recent Posts"
+      Tags: "Tags"
+      Previous: "Older"
+      Next: "Newer"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"
+      PostDate: ""
+      Google_search: "Site Search"
+      Home: "Home"
+      About: "About"
+      Guestbook: "Guestbook"
+      Subscribe: "Subscribe"
+    
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+      - name: Maggie Cary
+
+
+### Build settings
+markdown: kramdown
+#highlighter: pygments
+kramdown:
+        input: GFM
+        syntax_highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+excerpt_separator: "\n"
